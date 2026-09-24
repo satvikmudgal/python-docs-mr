@@ -6,20 +6,21 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.9\n"
+"Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-21 11:27-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-09-24 10:58-0700\n"
+"Last-Translator: \n"
+"Language-Team: Satvik Mudgal - satvik.mudgal@gmail.com\n"
+"Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
 
 #: about.rst:3
 msgid "About this documentation"
-msgstr ""
+msgstr "ह्या प्रलेखनाबद्दल"
 
 #: about.rst:6
 msgid ""
@@ -27,6 +28,9 @@ msgid ""
 "`Sphinx`_, a documentation generator originally created for Python and now "
 "maintained as an independent project."
 msgstr ""
+"पायथन चे प्रलेखन `reStructuredText`_ स्त्रोतांपासून `Sphinx`_ वापरून तयार केले जाते. हे "
+"एक प्रलेखन-जनित्र आहे, जे मुळतः पायथनसाठी तयार करण्यात आले आहे आणि आता एक स्वतंत्र प्रकल्प "
+"म्हणून सांभाळले जाते."
 
 #: about.rst:16
 msgid ""
@@ -35,32 +39,41 @@ msgid ""
 "look at the :ref:`reporting-bugs` page for information on how to do so.  New "
 "volunteers are always welcome!"
 msgstr ""
+"प्रलेखनाचा व त्याच्या साधनांचा विकास पूर्णपणे स्वयंसेवी प्रयत्न आहे, आगदी पायथनसारखाच. जर "
+"तुम्हाला योगदान द्यायचे असेल, तर कृपया ते कसे करायचे ह्या संदर्भात माहिती "
+"मिळवण्यासाठी :ref:`reporting-bugs` पृष्ठ पहा. नवीन स्वयंसेवकांचे नेहमी स्वागत आहे!"
 
 #: about.rst:21
 msgid "Many thanks go to:"
-msgstr ""
+msgstr "बहुतेक आभार पुढील लोकांना जातात:"
 
 #: about.rst:23
 msgid ""
 "Fred L. Drake, Jr., the creator of the original Python documentation toolset "
 "and author of much of the content;"
 msgstr ""
+"फ्रेड एल. ड्रेक, ज्युनिअर, मूळ पायथन प्रलेखनाच्या साधनांच्या निर्माता आणि त्यातील बऱ्याच "
+"सामग्रीचे लेखक;"
 
 #: about.rst:25
 msgid ""
 "the `Docutils <https://docutils.sourceforge.io/>`_ project for creating "
 "reStructuredText and the Docutils suite;"
 msgstr ""
+"reStructuredText आणि Docutils संच तयार करण्यासाठीचा `Docutils <https://"
+"docutils.sourceforge.io/>`_ प्रकल्प;"
 
 #: about.rst:27
 msgid ""
 "Fredrik Lundh for his Alternative Python Reference project from which Sphinx "
 "got many good ideas."
 msgstr ""
+"त्यांच्या Alternative Python Reference प्रकल्पासाठी Fredrik Lundh यांचे आभार, ज्यातून "
+"Sphinx ला अनेक चांगल्या कल्पना मिळाल्या."
 
 #: about.rst:32
 msgid "Contributors to the Python documentation"
-msgstr ""
+msgstr "पायथन प्रलेखनाचे योगदानकर्ते"
 
 #: about.rst:34
 msgid ""
@@ -68,9 +81,14 @@ msgid ""
 "library, and the Python documentation.  See :source:`Misc/ACKS` in the "
 "Python source distribution for a partial list of contributors."
 msgstr ""
+"अनेक लोकांनी पायथन भाषा, पायथन मानक लायब्ररी आणि पायथन प्रलेखन निर्मिती मधे योगदान "
+"दिले आहे. योगदात्यांची आंशिक यादी पाहण्यासाठी पायथन स्रोत वितरणातील :source:`Misc/"
+"ACKS` पहा."
 
 #: about.rst:38
 msgid ""
 "It is only with the input and contributions of the Python community that "
 "Python has such wonderful documentation -- Thank You!"
 msgstr ""
+"पायथन समुदायाच्या इनपुट आणि योगदानामुळेच पायथनकडे इतकी उत्कृष्ट प्रलेखनपत्र आहेत -- "
+"धन्यवाद!"

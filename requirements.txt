@@ -3,5 +3,4 @@ sphinx-lint
 powrap
 pomerge
 pospell
-blurb
-transifex-client
+potodo

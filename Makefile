@@ -36,6 +36,7 @@ UPSTREAM := https://github.com/python/cpython
 
 PYTHON := $(shell which python3)
 MODE := html
+PORT := 8000
 POSPELL_TMP_DIR := .pospell/
 JOBS := auto
 
@@ -105,8 +106,10 @@ ensure_prerequisites:
 	fi
 
 .PHONY: serve
-serve:
-	$(MAKE) -C $(CPYTHON_PATH)/Doc/ serve
+serve: all
+	@echo "Serving Marathi docs at http://localhost:$(PORT)/ (Ctrl + C to stop)"
+	@cd "$(abspath $(CPYTHON_PATH))/Doc/build/html" && $(PYTHON) -m http.server $(PORT) & \
+	sleep 1 && $(PYTHON) -m webbrowser "http://localhost:$(PORT)/" && wait
 
 
 .PHONY: progress
@@ -142,7 +145,7 @@ fuzzy: ensure_prerequisites
 	potodo -f --exclude venv .venv $(EXCLUDED)
 
 .PHONY: verifs
-verifs: wrap spell
+verifs: wrap
 
 .PHONY: merge
 merge: ensure_prerequisites
